@@ -1,7 +1,7 @@
 package com.georgy.newapp;
 
 public class HST {
-    public company company;
+    public Company company;
 
     public HST() {
 

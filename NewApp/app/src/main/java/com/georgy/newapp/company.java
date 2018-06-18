@@ -2,13 +2,13 @@ package com.georgy.newapp;
 
 import java.util.List;
 
-public class company {
+public class Company {
     public String name;
     public int age;
     public List<String> competences;
-    public List<employees> employees;
+    public List<Employees> employees;
 
-    public company() {
+    public Company() {
 
     }
 }

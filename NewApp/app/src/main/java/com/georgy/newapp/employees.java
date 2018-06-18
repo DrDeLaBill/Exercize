@@ -4,13 +4,13 @@ import android.support.annotation.NonNull;
 
 import java.util.List;
 
-public class employees implements Comparable<employees>{
+public class Employees implements Comparable<Employees>{
     public String name;
     public int phone_number;
     public List<String> skills;
     public String stringSkills;
 
-    public employees() {
+    public Employees() {
 
     }
 
@@ -19,7 +19,7 @@ public class employees implements Comparable<employees>{
     }
 
     @Override
-    public int compareTo(@NonNull employees obj) {
+    public int compareTo(@NonNull Employees obj) {
         return getName().compareTo(obj.getName());
     }
 

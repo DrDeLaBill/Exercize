@@ -11,7 +11,7 @@ public class MakeLayoutData {
 
         ArrayList<Map<String, Object>> data = new ArrayList<Map<String, Object>>();
 
-        for (employees employee : companyOne.company.employees) {
+        for (Employees employee : companyOne.company.employees) {
             Map<String, Object> m = new HashMap<String, Object>();
             m.put(ATRIBUTE_NAME, employee.name);
             m.put(ATRIBUTE_PHONE, "Phone number: " + employee.phone_number);
